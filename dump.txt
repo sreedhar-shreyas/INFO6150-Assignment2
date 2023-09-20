@@ -1,0 +1,165 @@
+ <div class="section">
+        
+            
+            <div class="section projects" id="projects">
+                <div class="secheader"> 
+                    <p>
+                   <h2> Selected Projects</h2>
+                </p>
+                </div>
+            
+            <div class="cards">
+                <button> <h3> Project 1</h3></button>
+                
+            </div>
+            <div class="cards">
+                <button> <h3> Project 1</h3></button>
+            </div>
+            <div class="cards">
+                <button> <h3> Project 1</h3></button>
+            </div>
+            <div class="cards">
+                <button> <h3> Project 1</h3></button>
+            </div>
+
+            
+
+        </div>
+        <div class="section testimonials">
+            <p>
+                Testi
+            </p>
+        </div>
+        <div class="section links">
+            <p>
+                Links
+            </p>
+        </div>
+
+
+        div{
+    /* margin: 20px; */
+}
+.section{
+    max-width: 100%;
+    min-height: 700px;
+    max-height: max-content;
+    border-left: 10px;
+    border-right: 10px;
+    display: grid;
+}
+
+.projects{
+    padding:30px;
+    display: grid;
+    grid-template-rows: 100px minmax(100px, 400px);
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    column-gap: 20px;
+    row-gap: 60px;
+    text-align: center;
+    border-width: 1px;
+
+}
+
+.projects button{
+   width: 100%;
+   background-color: #e2e8f0;
+border: 0;
+   transition: 0.3s;
+}
+.projects button:hover{
+    
+    background-color: #083344;
+    color: #22d3ee;
+    animation: ease-in;
+}
+.secheader{
+    grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  padding: 20px
+
+}
+.secheader p {
+    padding: 20px;
+}
+
+.cards{
+    border: 0.5px solid black;
+}
+.testimonials{
+    background-color: orange;
+    padding:30px;
+
+
+}
+.links{
+    background-color: blue;
+    padding:30px;
+
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shreyas S - Portfolio</title>
+    <link rel="stylesheet" href="./styles.css">
+
+
+</head>
+<header class="hero"> <h1> Shreyas Sreedhar</h1></header>
+<body>
+    
+   
+    </div>
+    
+    <footer></footer>
+</body>
+</html>
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,900;1,100;1,500;1,900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* background-color: #0f172a;
+    color: #e2e8f0; */
+}
+
+header{
+  
+    text-align: center;
+    align-items: center;
+    background-color: #0f172a;
+    color: #e2e8f0;
+    height: 10%;
+    max-width: 100%;
+    padding: 0px
+}
+
+/* Desktop */
+@media only screen and (min-width: 1024px) and (max-width:1980px){
+    
+    
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    
+}
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+   
+    
+}
+   
+
+/* Foldable Mobile */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+   
+}
