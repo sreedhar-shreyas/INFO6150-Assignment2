@@ -109,7 +109,7 @@ div {
   margin-left: 40px;
 }
 
-.mainme li {
+.mainme {
 
   padding-left: 0px;
   list-style-type: none;
@@ -444,6 +444,7 @@ audio{
     footer{
       padding: 0px;
       padding-top: 20px;
+      margin: 0px;
     }
 
   }
