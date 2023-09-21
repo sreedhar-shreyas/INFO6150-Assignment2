@@ -21,7 +21,7 @@ My Animoji as a favicon </details>
   
   ![](./images/readme-images/readme_TableProof.png)
    </br>
-   Utilised the Table tag to talk about the Specs and Features of the Car. Used border-collapse: collapse; to allow adjacent tabs to share borders. 
+   Utilised the Table tag to talk about my education. Used border-collapse: collapse; to allow adjacent tabs to share borders. 
 </details>
 <details>
  <summary> Form </summary> 
