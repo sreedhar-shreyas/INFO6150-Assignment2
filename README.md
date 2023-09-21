@@ -3,9 +3,16 @@
 ### Portfolio  Website
 This is a simple portfolio website that utilises HTML and CSS made to let the users know about the car and few of its features. Click on the Tags for a dropdown with details on where the Tags are being used. 
 <details>
+ <summary> Media Queries </summary> 
+
+  ![](./images/readme-images/readme_MediaQProof.png)
+   </br>
+   A abstract view of the media Queries that are being used to make the site responsive, [style.css](./styles.css) contains more info on it.
+</details>
+<details>
  <summary> Favicon </summary> 
 
-  ![](./images/readme-images/readme_FavProof.pnn)
+  ![](./images/readme-images/readme_FavProof.png)
    </br>
    Downloaded the Tesla Logo Favicon from a website, used the same Logo to match the theme. 
 </details>
@@ -20,8 +27,8 @@ This is a simple portfolio website that utilises HTML and CSS made to let the us
  <summary> Form </summary> 
   
   ![](./images/readme-images/readme_FormProof.png)
-  </ br>
-  In the [enquire.html](./enquire.html) Page, Used form to collect the Data from the User.
+  </br>
+  In the [contact-me.html](./contact-me.html) Page, Used form to collect the Data from the User.
 </details>
 <details>
  <summary> Images & Image Gallery with Hover effect </summary> 
@@ -98,6 +105,4 @@ This is a simple portfolio website that utilises HTML and CSS made to let the us
   </br> Used my email ID in a button that enables the user to email incase they want more details 
 </details>
 
-
-P.S Some of the commits were done from [shreyas-sreedhar](www.github.com/shreyas-sreedhar) and was done prior to making a this github from my Northeastern ID. Apologies for the inconvenicence. 
 
