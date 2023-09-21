@@ -248,7 +248,7 @@ text-justify: center;
   }
 
   .testimonial {
-    position: relative;
+    /* position: relative; */
     padding: 0;
     display: grid;
     column-gap: 20px;
@@ -286,7 +286,9 @@ text-justify: center;
 
   }
 
-
+.card1 img{
+  float: left;
+}
   .row3 {
     display: grid;
 }
@@ -309,7 +311,7 @@ text-justify: center;
 }
 .herotext{
   text-align: center;
-  position: absolute;
+  /* position: absolute; */
   top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -346,13 +348,133 @@ footer{
 audio{
   max-width: 100%;
 }
-  @media screen and (min-width: 1024px) {}
+  @media screen and (min-width: 1024px) {
+    .mainme{
+      display: block;
+    }
+    .mainme{
+      padding-bottom: relative;
+    }
+    .herotext{
+      position: sticky;
+    }
+  }
 
-  @media screen and (min-width: 768px) and (max-width: 1023px) {}
+
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .mainme{
+      display: block;
+    }
+    /* .scrolltodown{
+      position: relative;
+    } */
+  }
 
 
 
-  @media screen and (min-width: 480px) and (max-width: 767px) {}
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    *{
+      overflow-x: hidden;
+      
+    }
+    .column {
+      width: 100%;
+    }
+
+    .row {
+      /* display: grid; */
+      row-gap: 40px;
+    }
+
+    .card {
+      margin-bottom: 10px;
+      max-width: 90%;
+
+    }
+.card img{
+  max-width: 90%;
+}
+    .cards {
+      /* display: grid; */
+    }
+
+    .card1 {
+      margin-bottom: 10px;
+
+      
+
+    }
+    .card1 img{
+      align-items: center;
+    }
+    
+
+
+    /* .cards1 {
+      display: inline;
+    } */
+    .card1 img{
+      display: none;
+    }
+    .fleft h3{
+      padding-left: 0px;
+    }
+
+    div {
+      max-width: 100%;
+    }
+    .mainme{
+ 
+      display:block }
+
+    .mainme h1 {
+      font-size: 24px;
+      margin-left: 0px;
+      text-align: center;
+
+    }
+
+    .mainme .column {
+
+      max-width: 100%;
+      padding-left: 0px;
+      /* height: fit-content; */
+      align-items: center;
+      justify-content: center;
+    }
+
+    .mainme button {
+      padding-left: 0px;
+      height: 40px;
+      width: 100%;
+    }
+    .maineme button:hover{
+      background-color: #222222;
+      color: white;
+    }
+
+    .fora {
+      margin-left: 20px;
+
+    }
+    /* .testimonial{
+      display: inline;
+
+    } */
+    /* .testimonial img{
+      padding: 0px;
+    }
+    .cert{
+      padding-bottom: 30px ;
+      padding-top: 30px;
+    }
+    footer{
+      padding: 0px;
+      padding-top: 20px;
+      margin: 0px;
+    } */
+  }
 
   @media screen and (max-width: 480px) {
     *{
