@@ -141,19 +141,15 @@ header{
 }
 
 /* Desktop */
-@media only screen and (min-width: 1024px) and (max-width:1980px){
+@media screen and (min-width: 1024px) and (max-width:1980px){
     
-    
+    20px, 768px, and 1200px
 }
 
-/* Tablet */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-    
-    
-}
+
 
 /* Mobile */
-@media only screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
    
     
 }
@@ -162,4 +158,9 @@ header{
 /* Foldable Mobile */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
    
+}
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    
 }
