@@ -5,7 +5,7 @@ This is a simple portfolio website that utilises HTML and CSS made to let the us
 <details>
  <summary> Media Queries </summary> 
 
-  ![](./images/readme-images/readme_MediaQProof.png)
+  ![](./images/readme-images/readme_MediaQproof.png)
    </br>
    A abstract view of the media Queries that are being used to make the site responsive, [style.css](./styles.css) contains more info on it.
 </details>
@@ -13,7 +13,7 @@ This is a simple portfolio website that utilises HTML and CSS made to let the us
 <details>
  <summary> Favicon </summary> 
 
-  ![](./images/readme-images/readme_FavProof.png)
+  ![](./images/readme-images/readme_Favproof.png)
    </br> 
 My Animoji as a favicon </details>
 <details>
