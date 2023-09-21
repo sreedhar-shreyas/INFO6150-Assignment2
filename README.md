@@ -9,13 +9,13 @@ This is a simple portfolio website that utilises HTML and CSS made to let the us
    </br>
    A abstract view of the media Queries that are being used to make the site responsive, [style.css](./styles.css) contains more info on it.
 </details>
+
 <details>
  <summary> Favicon </summary> 
 
   ![](./images/readme-images/readme_FavProof.png)
-   </br>
-   Downloaded the Tesla Logo Favicon from a website, used the same Logo to match the theme. 
-</details>
+   </br> 
+My Animoji as a favicon </details>
 <details>
  <summary> Table </summary> 
   
