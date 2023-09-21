@@ -5,7 +5,7 @@ This is a simple portfolio website that utilises HTML and CSS made to let the us
 <details>
  <summary> Favicon </summary> 
 
-  ![](./images/readme-images/readme_FavProof.png)
+  ![](./images/readme-images/readme_FavProof.pnn)
    </br>
    Downloaded the Tesla Logo Favicon from a website, used the same Logo to match the theme. 
 </details>
